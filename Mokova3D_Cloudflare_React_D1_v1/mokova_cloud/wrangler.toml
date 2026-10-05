@@ -11,10 +11,6 @@ database_name = "mokova-db"
 database_id = "bc18068d-dd6e-418e-8701-94db5df805ce"
 migrations_dir = "migrations"
 
-[[r2_buckets]]
-binding = "MEDIA_BUCKET"
-bucket_name = "mokova-media"
-
 [vars]
 # Set secrets with: wrangler secret put ADMIN_PASSWORD
 # Set secrets with: wrangler secret put SESSION_SECRET

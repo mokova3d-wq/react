@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const esc=s=>String(s??'').replace(/'/g,"''");
+const products=JSON.parse(fs.readFileSync('src/products.json')).products;
+const categories=JSON.parse(fs.readFileSync('src/categories.json')).categories;
+const reviews=JSON.parse(fs.readFileSync('src/reviews.json')).reviews;
+const faq=JSON.parse(fs.readFileSync('src/faq.json')).items;
+const pages=JSON.parse(fs.readFileSync('src/pages.json')).pages;
+const gallery=JSON.parse(fs.readFileSync('src/gallery.json')).items;
+const site=JSON.parse(fs.readFileSync('src/site-config.json'));
+let out='BEGIN TRANSACTION;\n';
+for(const p of products)out+=`INSERT OR REPLACE INTO products(id,name,slug,data,active,sort_order) VALUES ('${esc(p.id)}','${esc(p.name)}','${esc(p.id)}','${esc(JSON.stringify(p))}',${p.active===false?0:1},${Number(p.sortOrder||0)});\n`;
+for(const c of categories)out+=`INSERT OR REPLACE INTO categories(id,name,slug,data,active,sort_order) VALUES ('${esc(c.id)}','${esc(c.name)}','${esc(c.id)}','${esc(JSON.stringify(c))}',${c.active===false?0:1},${Number(c.sortOrder||0)});\n`;
+for(const r of reviews)out+=`INSERT OR REPLACE INTO reviews(id,product_id,name,email,rating,comment,reply,visible,data) VALUES ('${esc(r.id)}','${esc(r.productId||r.product_id||'')}','${esc(r.reviewer_name||r.name||'')}','${esc(r.reviewer_email||r.email||'')}',${Number(r.rating||5)},'${esc(r.comment||'')}','${esc(r.reply||'')}',${r.visible===false?0:1},'${esc(JSON.stringify(r))}');\n`;
+for(const [k,v] of Object.entries(pages))out+=`INSERT OR REPLACE INTO pages(id,slug,data,active) VALUES ('${esc(k)}','${esc(k)}','${esc(JSON.stringify(v))}',1);\n`;
+for(const g of gallery)out+=`INSERT OR REPLACE INTO gallery(id,data,active,sort_order) VALUES ('${esc(g.id||globalThis.crypto.randomUUID())}','${esc(JSON.stringify(g))}',${g.active===false?0:1},${Number(g.sortOrder||0)});\n`;
+out+=`INSERT OR REPLACE INTO settings(key,value) VALUES ('faq','${esc(JSON.stringify(faq))}');\nINSERT OR REPLACE INTO settings(key,value) VALUES ('site','${esc(JSON.stringify(site))}');\nCOMMIT;\n`;
+fs.writeFileSync('migrations/0002_seed.sql',out);console.log('Generated migrations/0002_seed.sql');

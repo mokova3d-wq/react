@@ -1,0 +1,163 @@
+{
+  "version": 2,
+  "pages": {
+    "about": {
+      "title": "About Mokova",
+      "kicker": "ABOUT MOKOVA",
+      "intro": "Ideas. Designed. Printed.",
+      "sections": [
+        {
+          "heading": "What Mokova3D is about",
+          "body": "Mokova3D is a Delhi & NCR based creative 3D printing brand focused on useful objects, home décor, gifts, collectibles, lighting and custom-made pieces. The goal is simple: take an idea, reference or design and turn it into a physical object."
+        },
+        {
+          "heading": "What we make",
+          "body": "Our work includes ready-to-enquire products, decorative figures, small gifts, keychain-style pieces, shadow lamps, miniatures, prototypes, functional prints and custom figurines. Availability, size, colour and finish can vary by design."
+        },
+        {
+          "heading": "Custom 3D printing",
+          "body": "Already have a photo, sketch, STL, product link or rough idea? Send it to Mokova. We can discuss the size, quantity, material/colour options, feasibility and an estimated price before production."
+        },
+        {
+          "heading": "How we work",
+          "body": "We keep the process direct: share your requirement, confirm the details and quote, then the piece is printed and prepared for pickup or delivery. For custom work, production starts after the agreed specifications are confirmed."
+        },
+        {
+          "heading": "Why customers choose Mokova",
+          "body": "Direct WhatsApp support, flexible custom enquiries, small-batch creative work and a catalogue that can grow with new designs. If something is not listed, it is still worth asking."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Mokova",
+      "kicker": "CONTACT",
+      "intro": "Tell us what you want to make, buy or customise.",
+      "sections": [
+        {
+          "heading": "Product enquiries",
+          "body": "Send the product name, quantity and delivery location. We will confirm current availability, final price and delivery details on WhatsApp."
+        },
+        {
+          "heading": "Custom 3D printing",
+          "body": "For custom work, share a photo, sketch, STL/model, reference link or a short description. Include the approximate size, quantity and intended use if known."
+        },
+        {
+          "heading": "Bulk & gifting orders",
+          "body": "Multiple pieces, return gifts, event requirements and small-batch gifting enquiries can be discussed. Tell us the quantity and preferred timeline."
+        },
+        {
+          "heading": "What to include",
+          "body": "The more useful the reference, the faster we can help. Useful details include size, colour, quantity, delivery pincode, budget range and any deadline."
+        }
+      ]
+    },
+    "shipping": {
+      "title": "Shipping & Delivery",
+      "kicker": "SHIPPING",
+      "intro": "Delivery details can vary by product and destination.",
+      "sections": [
+        {
+          "heading": "Delivery area",
+          "body": "Mokova currently focuses on Delhi & NCR enquiries. If you are outside the area, ask on WhatsApp and we can confirm whether delivery is possible for your location."
+        },
+        {
+          "heading": "Before dispatch",
+          "body": "For each order, confirm the product, quantity, colour/customisation, final price and delivery location before payment or production."
+        },
+        {
+          "heading": "Delivery timelines",
+          "body": "Timelines depend on whether the item is ready, needs printing, requires customisation and the destination. Custom or bulk orders may need additional production time."
+        },
+        {
+          "heading": "Delivery charges",
+          "body": "Delivery charges can vary by destination, package size and order quantity. Confirm the final delivered amount with Mokova before placing the order."
+        },
+        {
+          "heading": "Custom orders",
+          "body": "Custom prints are produced according to the approved specifications. Please review the agreed size, design and colour details carefully before production starts."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Returns",
+      "kicker": "RETURNS",
+      "intro": "Return eligibility depends on the product and its condition.",
+      "sections": [
+        {
+          "heading": "Before ordering",
+          "body": "Please confirm the product, size, colour, quantity, customisation and delivery details before confirming an order."
+        },
+        {
+          "heading": "Ready-made products",
+          "body": "If a ready-made product arrives damaged or there is a clear issue with the item received, contact Mokova promptly with photos/videos so the issue can be reviewed."
+        },
+        {
+          "heading": "Custom-made products",
+          "body": "Custom products are made to the specifications agreed before production. Changes requested after production has started may not be possible."
+        },
+        {
+          "heading": "Wrong or damaged item",
+          "body": "If you receive the wrong item or a damaged package, contact Mokova as soon as possible and keep the packaging and relevant photos for review."
+        },
+        {
+          "heading": "Refunds & replacements",
+          "body": "Any refund, replacement or correction is handled after the issue and order details are reviewed. The final resolution depends on the circumstances of the order."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "kicker": "PRIVACY",
+      "intro": "Mokova respects your privacy.",
+      "sections": [
+        {
+          "heading": "Information you share",
+          "body": "You may share your name, phone number, email, delivery details, product requirements, reference images or other information when contacting Mokova."
+        },
+        {
+          "heading": "How information is used",
+          "body": "Information is used to respond to enquiries, discuss products or custom work, coordinate delivery and provide customer support."
+        },
+        {
+          "heading": "WhatsApp communication",
+          "body": "When you choose a WhatsApp enquiry button, your message is handled through WhatsApp. Please review WhatsApp’s own privacy practices for information handled by that service."
+        },
+        {
+          "heading": "No unnecessary data collection",
+          "body": "The website is designed to keep the enquiry flow simple. Do not send passwords, OTPs, payment PINs or other sensitive credentials in an enquiry."
+        },
+        {
+          "heading": "Questions",
+          "body": "For questions about information shared with Mokova, contact us through the website WhatsApp channel."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "kicker": "TERMS",
+      "intro": "Please review these general terms before ordering.",
+      "sections": [
+        {
+          "heading": "Product information",
+          "body": "3D printed products can have small variations in finish, colour, texture and dimensions. Product images are intended to show the design and may not represent every possible finish."
+        },
+        {
+          "heading": "Prices & availability",
+          "body": "Prices and availability can change. A product marked “Ask on WhatsApp” requires a current quote before ordering."
+        },
+        {
+          "heading": "Custom orders",
+          "body": "Custom work is based on the reference and specifications agreed with the customer. Changes after approval may affect price or timeline."
+        },
+        {
+          "heading": "Customer responsibility",
+          "body": "Customers should provide accurate size, colour, quantity, delivery and reference details and review the agreed specifications before production."
+        },
+        {
+          "heading": "Communication",
+          "body": "WhatsApp is the primary enquiry channel for confirming current availability, quotes, customisation and delivery details."
+        }
+      ]
+    }
+  }
+}

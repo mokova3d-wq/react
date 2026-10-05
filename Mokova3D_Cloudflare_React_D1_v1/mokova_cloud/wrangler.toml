@@ -1,0 +1,22 @@
+name = "mokova3d"
+main = "worker/index.js"
+compatibility_date = "2026-10-05"
+
+[assets]
+directory = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mokova-db"
+database_id = "bc18068d-dd6e-418e-8701-94db5df805ce"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "mokova-media"
+
+[vars]
+# Set secrets with: wrangler secret put ADMIN_PASSWORD
+# Set secrets with: wrangler secret put SESSION_SECRET
+# Optional integrations:
+# GOOGLE_APPS_SCRIPT_URL = "https://script.google.com/macros/s/.../exec"

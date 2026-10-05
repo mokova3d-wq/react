@@ -1,0 +1,1 @@
+The project source is ready for `npm install` + `npm run build`. The execution environment used to prepare this package could not complete an external npm package download, so `node_modules` and a generated `dist/` are intentionally not included. Cloudflare will install dependencies and build during the connected Git deployment.
